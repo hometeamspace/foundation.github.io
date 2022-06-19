@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* , body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+.jumbotron
+{
+    background-image: linear-gradient(to right , rgba(0 , 0 , 0 , 0.6) , rgba(0 , 0 , 0 , 0.6)) , url("../img/frsanchisee.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 500px;
+    
+    position: relative;
+    
+}
+
+.hero-text
+{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+}
+
+/******** compuetr ********/
+
+.computer h3::after , .eng-lrn h3::after
+{
+    content: '';
+    display: block;
+    border-bottom: 2px solid #000;
+    width: 20%;
+    padding-top: 5px;
+    
+}
+
+/********** footer ******/
+
+#footer ul li a 
+{
+    color: #fff;
+}
+
+#footer ul li a:hover
+{
+    text-decoration: underline;
+}
+
+/********** footer end ******/
+
+/******************************** responsive *************************/
+
+@media (max-width: 575.98px) { 
+
+
+    .jumbotron h1
+{
+    font-size: 1.8rem;
+}
+
+ }
+
+
+
+
+
+/******************************** responsive breakpoint **************/
+
